@@ -5,16 +5,65 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <h1 class="title">Sasha's Diner</h1>
-            <nav>
+
+        <div id="home" class="home">
+            <div>
+                <h1>Luis Vasquez</h1>
+                <p>software engineer</p>
+            </div>
+            <p class="scroll">scroll down</p>
+        </div>
+        
+        <header class="header">
+            <img src="./images/newlogo.png" alt="logo">
+            <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-btn"><a href="#">Home</a></li>
-                    <li class="nav-btn"><a href="#">Drinks of the Day</a></li>
-                    <li class="nav-btn"><a href="#">Menu</a></li>
+                    
+                    <li class="left"><a href="#home">HOME</a></li>
+                    <li class="left"><a href="#about">ABOUT</a></li>
+                    <li class="right"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li class="right"><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
-        <script src="index.js"></script>
+       <h2 id="about">ABOUT</h2>
+        <div class="div1">
+            
+            <div class="self">
+                <img src="./images/stock.jpg" alt="me">
+            </div>
+            <div class="bio">
+                <strong>Who mans is this...</strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit veritatis, beatae minima quis nihil illo vitae molestiae in aut veniam modi dolor quae tenetur dignissimos tempora distinctio similique cum?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt et rerum ad unde quis animi iure, reprehenderit sit saepe error odio vel numquam commodi sapiente aspernatur minima ea quaerat voluptate!</p>
+                <strong>More about your boi..</strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto accusantium exercitationem eaque vero neque voluptates sint laudantium totam unde facilis, magnam dolores molestias commodi iste itaque quidem. Consectetur, fugiat expedita!</p>
+            </div>
+        </div>
+
+
+        <div id="portfolio" class="div2">
+            <h2>PORTFOLIO</h2>
+            <div class="flex-container">
+               <div class="project one"><img class="1" src="./images/chim.jpeg" alt=""></div>
+               <div class="project two"><img class="2" src="./images/sash.jpeg" alt="dog"></div>
+               <div class="project three"><img class="3" src="./images/sash2.jpeg" alt="dog"></div>
+               <div class="project four"><img class="4" src="./images/chim2.jpeg" alt="cat"></div>
+               <div class="project five"><img class="5" src="./images/chim3.jpeg" alt="cat"></div>
+               <div class="project six"><img class="6" src="./images/sash3.jpeg" alt="dog"></div>
+            </div>
+            
+        </div>
+        
+        <div id="contact"class="div3">
+            <h2>CONTACT</h2>
+            <div class="icons">
+                <a href="https://www.facebook.com/"><img src="./images/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/?hl=en"><img src="./images/insta.png" alt="insta"></a>
+                <a href="https://www.linkedin.com/"><img src="./images/linked.png" alt="linked in"></a>
+                <a href="https://www.whatsapp.com/"><img src="./images/Whats.png" alt="whatsapp"></a>
+            </div>           
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
