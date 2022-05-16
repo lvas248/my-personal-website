@@ -1,10 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
 body {
     padding: 0;
-    display: block;
+    display: block;    
+    min-width: 800px;
 }
 
 /*Header----------------*/
@@ -94,9 +96,12 @@ header p {
     display: flex;
     flex-direction: row;
 }
+
 #about {
     text-align: center;
+    margin: auto;
     margin-top: 25px;
+    
 }
 .self {
     padding: 10px;
@@ -149,23 +154,29 @@ header p {
 .flex-container div img {
     width: 100%;
 }
-.one {
-    background-image: url('./images/chim.jpeg');
-    background-size: cover;
-    padding: 10px;
-}
-.one:hover {
-    background-image: url('./images/chim.jpeg');
-    background-size: cover;
-    opacity: .2;
-    cursor:grab;
-}
+
 .one-p, .one-h2{
     display: none;
 }
-
-
-
+.left, .right {
+    width: 5%;
+    height: 5%;
+    margin: auto;
+}
+.white {
+    border: 2px black solid;
+    padding: 5px;
+    width: 30%;
+}
+.blue  {
+    width: 30%;
+}
+.top {
+    margin-bottom: 10px;
+}
+.para {
+    margin-bottom: 8px;
+}
 
 /* CONTACT----------------*/
 .div3 {
